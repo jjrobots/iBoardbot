@@ -11,7 +11,7 @@ BOM:
 - Stainless steel round bar (8mmÿ,450mm length)
 - 2x  round aluminium tube (6mmÿ, 205 mm length)
 - 4x 30 cms servo cable extender
-- 2x 1.8deg NEMA 17 Stepper motors 
+- 2x 1.8deg NEMA 17 Stepper motors (40mm length) (4.4Kg/cm torque)
 - Motor cables (14+70 cms length do the job)
 - 400x150x6mm glass (for the standard iBoardbot Robot)
 - 2x SG90 servo
