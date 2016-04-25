@@ -5,11 +5,11 @@ Project page: https://www.kickstarter.com/projects/879074320/iboardbot-the-inter
 
 BOM:
 - GT2 timing belt (two segments of 53+100 cms)
-- pulley gt2 16 tooth
+- pulley gt2 20 tooth
 - 608 bearing
 - 623 bearing
-- Stainless steel round bar (8mmÿ,450mm length)
-- 2x  round aluminium tube (6mmÿ, 205 mm length)
+- Stainless steel round bar (8mm√ò,450mm length)
+- 2x  round aluminium tube (6mm√ò, 205 mm length)
 - 4x 30 cms servo cable extender
 - 2x 1.8deg NEMA 17 Stepper motors (40mm length) (4.4Kg/cm torque)
 - Motor cables (14+70 cms length do the job)
@@ -26,6 +26,6 @@ BOM:
 
 OTHER:
 - 3mm wide/100mm long zip ties (~x10)
-- 5mmÿ cable wrap (~60 cms)
+- 5mm√ò cable wrap (~60 cms)
 
 JJROBOTS.
