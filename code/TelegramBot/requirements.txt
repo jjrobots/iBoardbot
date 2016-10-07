@@ -1,0 +1,5 @@
+urllib3
+pyTelegramBotAPI
+pyopenssl
+ndg-httpsclient
+pyasn1
