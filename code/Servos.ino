@@ -1,6 +1,7 @@
 // iBoardbot project
 
 // Init servo on T4 timer. Output OC4B (Leonardo Pin10) servo1, OC4D (Leonardo Pin6) servo2, optional I2C output for servo2
+// Servo2 compatible with OC4A (Leonardo Pin13)
 // We configure the Timer4 for 11 bits PWM (enhacend precision) and 16.3ms period (OK for most servos)
 // Resolution: 8us per step (this is OK for servos, around 175 steps for typical servo)
 
@@ -87,7 +88,7 @@ void enableServo2()
 {
   while (TCNT4<0xFF);   // Wait for sync...
   TIMSK4 = (1 << TOIE4) | (1 << OCIE4A);
-  CLR(TCCR4A,COM4A1);
+  SET(TCCR4A,COM4A1);
   SET(TCCR4C,COM4D1);
   servo2_ready=true;
 }

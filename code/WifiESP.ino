@@ -428,12 +428,14 @@ uint8_t ESPsendHTTP(char *url)
     return 1;
   }
   else {
+    digitalWrite(13,LOW);
     Serial.println(F("Connection error"));
     Serial1.println("AT+CIFSR");
     ESPwaitFor("OK", 5);
     Serial1.println("AT+CIPCLOSE");
     ESPwaitFor("OK", 5);
     delay(4000);  // delay on error...
+    digitalWrite(13,HIGH);
     return 0;
   }
 }

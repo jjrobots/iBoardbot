@@ -3,8 +3,8 @@
 // Hardware: Arduino Leonardo + JJROBOTS BROBOT shield 2 (new) with ESP-12E Wifi module
 // ESP8266 firmware version 1.0.1 or higher
 // Date: 18/04/2015
-// Last updated: 02/05/2015
-// Version: 1.06
+// Last updated: 19/02/2017
+// Version: 1.08
 // Project page : http://jjrobots.com/
 // Kickstarter page:https://www.kickstarter.com/projects/879074320/iboardbot-the-internet-controlled-whiteboard-robot
 // GIT repository: https://github.com/jjrobots/iBoardbot
@@ -19,7 +19,7 @@
 #include <EEPROM.h>
 #include <avr/pgmspace.h>
 
-#define VERSION "iBoardBot 1.07"
+#define VERSION "iBoardBot 1.08"
 //#define DEBUG 0
 
 // ROBOT and USER configuration parameters
